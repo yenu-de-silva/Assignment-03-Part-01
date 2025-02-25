@@ -1,0 +1,124 @@
+.container{
+    overflow: hidden;
+}
+.box{
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+}
+.box:nth-child(1){
+    background: red;
+}
+.box:nth-child(2){
+    background: green;
+    right: 0;
+}
+.box:nth-child(3){
+    background: hotpink;
+    right: 0;
+    bottom: 0;
+}
+.box:nth-child(4){
+    background: yellow;
+    bottom: 0;
+}
+.box:nth-child(5){
+    background: white;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.box:nth-child(6){
+    background: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50px;
+}
+.box:nth-child(7){
+    background: white;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 100%;
+}
+.box:nth-child(8){
+    background: white;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    border-top-right-radius: 100%;
+}
+.box:nth-child(9){
+    background: white;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border-bottom-left-radius: 100%;
+}
+.box:nth-child(10){
+    background: white;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border-bottom-right-radius: 100%;
+}
+.box:nth-child(11){
+    background: white;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0;
+    right: 0;
+    top: -50px;
+    margin: auto;
+    border-radius: 0 0 100% 100%;
+}
+.box:nth-child(12){
+    background: white;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100% 100% 0 0;
+}
+.circle{
+    background: white;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100px;
+}
+.square{
+    background: red;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
